@@ -37,7 +37,7 @@ class categoryController extends Controller
     public function show($param)
     {
         $articleModel = new CategoryModel();
-       // $article =  $articleModel->getArticleByCategory($param);
+        $article =  $articleModel->getArticleByCategory($param);
 
 
 
